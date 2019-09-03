@@ -159,3 +159,48 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.footer {
+  width: 1020px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.about {
+  width: 50%;
+}
+
+.nav-footer {
+  width: 50%;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer-list li {
+  margin-right: 8px;
+}
+
+.policy {
+  margin-top: 18px;
+}
+
+.footer-link {
+  color: #6CBAE1;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.usa {
+  width: 16px;
+}
