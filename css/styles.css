@@ -3,7 +3,8 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: 'San Fransisco'
 }
 
 body {
@@ -67,6 +68,7 @@ body {
 .nav-bar__link {
   text-decoration: none;
   color: white;
+  font-size: 14px;
 }
 
 .apple-logo {
@@ -90,4 +92,53 @@ body {
   border: 1px inset;
   background: linear-gradient(to bottom, rgba(128,128,128,1) 0%, rgba(128,128,128,1) 50%, rgba(112,112,112,1) 51%, rgba(112,112,112,1) 100%);
   box-shadow: inset 1px 7px 6px -7px rgba(0,0,0,1);
+}
+
+.header {
+  height: 540px;
+  background: url('../assets/your_verse_hero.jpg') 50% 100% no-repeat;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-hero {
+  font-weight: 100;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 60px;
+  color: #fff;
+}
+
+.copy {
+  font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 16px;
+  color: #fff;
+  max-width: 740px;
+}
+
+.call {
+  font-weight: 200;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 12px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call:hover {
+  text-decoration: underline;
+}
+
+.play {
+  width: 28px;
+  margin-left: 12px;
 }
