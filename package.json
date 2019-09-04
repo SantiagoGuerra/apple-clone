@@ -1,0 +1,24 @@
+{
+  "name": "apple-clone",
+  "version": "1.0.0",
+  "description": "Microverse Project",
+  "main": "stylint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoGuerra/apple-clone.git"
+  },
+  "author": "Santiago Guerra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoGuerra/apple-clone/issues"
+  },
+  "homepage": "https://github.com/SantiagoGuerra/apple-clone#readme",
+  "devDependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-standard": "^18.3.0"
+  }
+}
